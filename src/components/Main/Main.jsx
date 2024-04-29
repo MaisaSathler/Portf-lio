@@ -8,7 +8,7 @@ import css from "../../assets/css.png"
 import java from "../../assets/java.png"
 import reacticon from "../../assets/reacticon.png"
 import styledicon from "../../assets/styledicon.png"
-
+import Card from "./Card"
 
 
 
@@ -31,7 +31,7 @@ export default function Main() {
 
      <S.BoxSM id="sobremim">
       <S.DivSM >
-        <h2>Sobre mim</h2>
+        <h2> <span>Sobre</span> mim</h2>
         <p>
           Meu nome é Maisa Castro Sathler, nasci em Belo Horizonte-Mg, mas morei a minha vida toda em Contagem-Mg. Estou sempre disposta a aprender e conhecer
           algo novo e foi assim que me encontrei na programação, foi como uma paixão à primeira vista. Sempre fui uma pessoa ligada na internet e em computadores,
@@ -48,58 +48,48 @@ export default function Main() {
 
 
     { <S.BoxTrabalhos id="trabalhos">
-    <h2>Meus Trabalhos</h2>
+
+
+    <h2><span>Meus</span> Trabalhos</h2>
+
+
        <S.DivTB>
-       <S.Card>
 
 
-          <a href="https://prime-video-omega.vercel.app/" target="_blank">
-            <S.Figure><img src={siteprime} alt="" /></S.Figure></a>
-          <p>Meu primeiro site</p>
-          <p>HTML, CSS</p>
-          <a href="https://github.com/MaisaSathler/Prime-video" target="_blank">
-          <img className="git" src={github} alt="" /></a>
-
-
-        </S.Card>
-        <S.Card>
-
-
-          <a href="https://self-care-tau.vercel.app/" target="_blank" >
-          <S.Figure><img src={siteselfcare} alt="" /></S.Figure></a>
-          <p>Primeiro site responsivo</p>
-          <p>HTML, CSS</p>
-          <a href="https://github.com/MaisaSathler/SelfCare" target="_blank">
-          <img className="git" src={github} alt="" /></a>
-
-
-        </S.Card>
-
-
-        
-        <S.Card>
-
-
-          <a href="https://mc-donald-s.vercel.app/" target="_blank">
-          <S.Figure><img src={sitemac} alt="" /></S.Figure></a>
-          <p>Site utilizando JS</p>
-          <p>HTML, CSS, JS, React, Styled</p>
-          <a href="https://github.com/MaisaSathler/Mc-Donald-s" target="_blank"
-          ><img className="git" src={github} alt="" /></a>
-
-
-        </S.Card>
-        
+       <Card linksite={"https://prime-video-omega.vercel.app/"} siteimg={siteprime} texto={"Meu primeiro site"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/Prime-video"} gitsymbol={github}/>
+       <Card linksite={"https://self-care-tau.vercel.app/"}  siteimg={siteselfcare} texto={"Primeiro site responsivo"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/SelfCare"} gitsymbol={github}/>
+       <Card linksite={"https://mc-donald-s.vercel.app/"} siteimg={sitemac} texto={"Site utilizando JS"} descricao={"HTML, CSS, JS, React, Styled"} repositorio={"https://github.com/MaisaSathler/Mc-Donald-s"} gitsymbol={github}/>
        
        </S.DivTB>
+
+
+
+
+       
        <S.Icons>
+       <h2>Habili<span>dades</span></h2>
         <div>
-          
+         <S.Figure>
        <img src={html} alt="" />
+       </S.Figure>
+       
+       <S.Figure>
         <img src={css} alt="" />
+        </S.Figure>
+      
+        <S.Figure>
         <img src={java} alt="" />
+        </S.Figure>
+
+        <S.Figure>
         <img src={reacticon} alt="" />
+        </S.Figure>
+
+        <S.Figure>
         <img src={styledicon} alt="" />
+        </S.Figure>
+       
+        
         
         </div>
        </S.Icons>

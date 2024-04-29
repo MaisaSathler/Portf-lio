@@ -75,6 +75,9 @@ p{
     font-family: "poppins";
     font-size: 15px;
 }
+span{
+    color:#671699;
+}
 
 
 
@@ -90,9 +93,12 @@ text-align: center;
 font-size: 27px;
 font-family:"Platypi", serif ;
 color: white;
-height: 120vh;
+height: 130vh;
 /* border: green solid 1px; */
 padding-top:35px;
+span{
+    color:#671699;
+}
 `
 export const DivTB = styled.div`
 /* border: solid 1px blue; */
@@ -133,9 +139,11 @@ p{
 export const Figure = styled.figure`
 overflow: hidden;
 transition: transform 0.5s ease;
+cursor: pointer;
 &:hover{
     transform: scale(1.1);
 }
+
 `
 
 
@@ -143,16 +151,19 @@ transition: transform 0.5s ease;
 export const Icons = styled.div`
 
 ${center}
+flex-direction: column;
 /* border: solid 1px green; */
 height: 20vh;
 div{
     /* border: solid 1px green; */
     ${center}
+    
     width: 45vw;
     border-top: solid 1px white;
     height: 20vh;
     padding-top: 40px;
 }
+
 
 `
 // ------------------fim meus trabalhos----------
