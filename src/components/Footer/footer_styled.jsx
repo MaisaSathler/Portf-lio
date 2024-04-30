@@ -8,26 +8,32 @@ const center = css`
 `
 
 export const Footer = styled.footer`
-height: 35vh;
+height: 55vh;
 background-color: #050933;
+${center}
+flex-direction: column;
+/* border: solid 1px yellow; */
 `
 
 export const BoxFoot = styled.section`
 /* border: solid 1px magenta; */
-height: 35vh;
+height: 48vh;
 ${center}
 flex-direction: column;
 justify-content: space-evenly;
 p{
     color: white;
     font-family:"Platypi", serif ;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 `
 
 export const DivFoot = styled.div`
 /* border: solid 1px yellow; */
 ${center}
+img{
+    width: 5vw;
+}
 
 `
 
@@ -47,18 +53,24 @@ a:hover{
    color:#671699 ;
 }
 `
+// export const SecPe = styled.section`
+// border: solid 1px green;
+// width: 100%;
 
-export const Pé = styled.div`
-/* border: solid 1px green; */
-
+// `
+export const Pe = styled.div`
+/* border: solid 1px red; */
+width: 100%;
 height: 7vh;
-background-color: #010214;
+${center}
+flex-direction: column;
+align-items: baseline;
+justify-content: end;
 p{
     color: white;
-/* border: solid 1px green; */
-    width: 20vw;
-    height: 6.8vh;
-    ${center}
 }
+
+
+
 `
 

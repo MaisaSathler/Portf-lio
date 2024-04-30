@@ -16,6 +16,16 @@ export const Box = styled.section`
 height: 70vh;
 ${center}
 background-color:#04052B;
+@media (max-width: 430px) {
+        height: 85vh;
+    
+    }
+    @media (max-width: 340px) {
+        height: 100vh;
+    
+    }
+
+
 
 `
 
@@ -28,14 +38,66 @@ height: 70vh;
 ${center}
 gap: 40px;
 padding-bottom: 40px;
+@media (max-width: 900px) {
+    width: 75%;
+    
+    }
+    @media (max-width: 690px) {
+    width: 85%;
+    
+    }
+    @media (max-width: 590px) {
+    width: 90%;
+    
+    }
+    @media (max-width: 430px) {
+    flex-direction: column;
+    width: 60%;
+    
+     
+    
+    }
+    @media (max-width: 340px) {
+        height: 90vh;
+        width: 70%;
+    
+    }
+    @media (max-width: 230px) {
+       width: 95%;
+    
+    }
+   
 h1{
     font-size: 40px;
-    /* border: solid 1px green; */
+    /* border: solid 1px orange; */
     border-right:solid 1px white;
+    @media (max-width: 590px) {
+    font-size: 30px;
+    
+    }
+    @media (max-width: 430px) {
+        border-right: none;
+        border-bottom    :solid 1px white ;
+        height: 40vh;
+        ${center}
+    
+    }
+    @media (max-width: 340px) {
+        height: 55vh;
+    
+    }
+    @media (max-width: 230px) {
+      font-size:25px;
+    
+    }
 }
 h2{
     color: #671699;
 }
+@media (max-width: 230px) {
+      font-size:13px;
+    
+    }
 `
 
 // --------------fim do inicio-----------------
@@ -50,34 +112,103 @@ h2{
 export const BoxSM = styled.section`
 height: 100vh;
 background-color: #050933;
-/* border: solid 1px green; */
+border: solid 1px green;
 ${center}
 padding-bottom: 50px;
+@media (max-width: 690px) {
+      height: 120vh;
+    
+    }
+    @media (max-width: 520px) {
+      height: 140vh;
+      
+    }
+    @media (max-width: 260px) {
+      height: 160vh;
+      
+    }
+    @media (max-width: 230px) {
+      height: 180vh;
+      
+    }
 `
 
 export const DivSM = styled.div`
 color: white;
 ${center}
 flex-direction: column;
-/* border: solid 1px red; */
+border: solid 1px red;
 padding-bottom: 50px;
 width: 65vw;
 height: 61vh;
 justify-content: space-between;
+@media (max-width: 690px) {
+      height: 100vh;
+      width: 70vw;
+    }
+    @media (max-width: 630px) {
+      height: 110vh;
+      
+    }
+    @media (max-width: 520px) {
+      height: 110vh;
+      width: 85vw;
+    }
+    @media (max-width: 430px) {
+      height: 105vh;
+      
+    }
+    @media (max-width: 390px) {
+      height: 90vh;
+      width: 90vw;
+      
+    }
+    @media (max-width: 330px) {
+      height: 125vh;
+      
+    }
+    @media (max-width: 260px) {
+      height: 140vh;
+      
+    }
+    @media (max-width: 230px) {
+      height: 160vh;
+      
+    }
+    @media (max-width: 200px) {
+      height: 170vh;
+      
+    }
+   
 
 h2{
     font-family:"Platypi", serif ;
     font-size: 40px;
+    @media (max-width: 260px) {
+      font-size: 35px;
+      
+    }
+    @media (max-width: 230px) {
+      font-size:30px;
+      
+    }
+}
 
 
 }
 p{
     font-family: "poppins";
     font-size: 15px;
+    @media (max-width: 430px) {
+      font-size: 14px;
+      
+    }
+    @media (max-width: 390px) {
+      font-size: 15px;
+      
+    }
 }
-span{
-    color:#671699;
-}
+
 
 
 
@@ -96,9 +227,7 @@ color: white;
 height: 130vh;
 /* border: green solid 1px; */
 padding-top:35px;
-span{
-    color:#671699;
-}
+
 `
 export const DivTB = styled.div`
 /* border: solid 1px blue; */
@@ -165,5 +294,9 @@ div{
 }
 
 
+`
+
+export const Span = styled.span`
+color:#671699
 `
 // ------------------fim meus trabalhos----------

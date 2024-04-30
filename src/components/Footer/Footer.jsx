@@ -24,15 +24,22 @@ export default function Footer() {
       <img src={gmail} alt="icone do email" /></a>
 
      </S.DivFoot>
+
     <S.DivFoot2>
+
      <a href="#inicio">Inicio</a>
      <a href="#sobremim">Sobre mim</a>
      <a href="#trabalhos">Trabalhos</a>
+
      </S.DivFoot2>
+
      </S.BoxFoot>
-     <S.Pé>
-     <p>© 2024 Todos os direitos reservados.</p>
-     </S.Pé>
+    {/* <S.SecPe> */}
+    <S.Pe>
+      <p>@2024 Todos os direitos reservados.</p>
+    </S.Pe>
+    {/* </S.SecPe> */}
     </S.Footer>
+     
   )
 }

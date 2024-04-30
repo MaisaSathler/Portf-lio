@@ -31,7 +31,7 @@ export default function Main() {
 
      <S.BoxSM id="sobremim">
       <S.DivSM >
-        <h2> <span>Sobre</span> mim</h2>
+        <h2> <S.Span>Sobre</S.Span> mim</h2>
         <p>
           Meu nome é Maisa Castro Sathler, nasci em Belo Horizonte-Mg, mas morei a minha vida toda em Contagem-Mg. Estou sempre disposta a aprender e conhecer
           algo novo e foi assim que me encontrei na programação, foi como uma paixão à primeira vista. Sempre fui uma pessoa ligada na internet e em computadores,
@@ -50,11 +50,10 @@ export default function Main() {
     { <S.BoxTrabalhos id="trabalhos">
 
 
-    <h2><span>Meus</span> Trabalhos</h2>
+    <h2><S.Span>Meus</S.Span> Trabalhos</h2>
 
 
        <S.DivTB>
-
 
        <Card linksite={"https://prime-video-omega.vercel.app/"} siteimg={siteprime} texto={"Meu primeiro site"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/Prime-video"} gitsymbol={github}/>
        <Card linksite={"https://self-care-tau.vercel.app/"}  siteimg={siteselfcare} texto={"Primeiro site responsivo"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/SelfCare"} gitsymbol={github}/>
@@ -62,12 +61,8 @@ export default function Main() {
        
        </S.DivTB>
 
-
-
-
-       
        <S.Icons>
-       <h2>Habili<span>dades</span></h2>
+       <h2><S.Span>Habili</S.Span>dades</h2>
         <div>
          <S.Figure>
        <img src={html} alt="" />
