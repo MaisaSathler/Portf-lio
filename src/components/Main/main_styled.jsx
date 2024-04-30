@@ -158,8 +158,8 @@ justify-content: space-between;
       height: 105vh;
       
     }
-    @media (max-width: 390px) {
-      height: 90vh;
+    @media (max-width: 395px) {
+      height: 75vh;
       width: 90vw;
       
     }
