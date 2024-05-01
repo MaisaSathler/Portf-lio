@@ -17,7 +17,7 @@ export default function Main() {
   return (
    <main>
     <S.Box>
-      <S.Divinicio>
+      <S.Divinicio id="inicio">
     <h1>Seja bem vindo(a), meu nome é Maisa Castro</h1>
       <h2>Desenvolvedora Front-End</h2>
       
@@ -32,7 +32,7 @@ export default function Main() {
      <S.BoxSM id="sobremim">
       <S.DivSM >
         <h2> <S.Span>Sobre</S.Span> mim</h2>
-        <p>
+        <p >
           Meu nome é Maisa Castro Sathler, nasci em Belo Horizonte-Mg, mas morei a minha vida toda em Contagem-Mg. Estou sempre disposta a aprender e conhecer
           algo novo e foi assim que me encontrei na programação, foi como uma paixão à primeira vista. Sempre fui uma pessoa ligada na internet e em computadores,
           sempre tive muita facilidade para manusear e entender as funcionalidades do mesmo. Desde muito nova é uma área na qual eu me interesso. Meu primeiro curso foi 

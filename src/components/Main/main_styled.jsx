@@ -115,22 +115,25 @@ background-color: #050933;
 border: solid 1px green;
 ${center}
 padding-bottom: 50px;
-@media (max-width: 690px) {
-      height: 120vh;
+padding-top: 50px;
+@media (max-width: 320px) {
+     
+     
+     padding-top: 25px;
+   }
+   @media (max-width: 260px) {
+     
+     padding-bottom: 25px;
+     
+   }
+   @media (max-width: 200px) {
+     
+    height: 150vh;
     
-    }
-    @media (max-width: 520px) {
-      height: 140vh;
-      
-    }
-    @media (max-width: 260px) {
-      height: 160vh;
-      
-    }
-    @media (max-width: 230px) {
-      height: 180vh;
-      
-    }
+     
+   }
+   
+
 `
 
 export const DivSM = styled.div`
@@ -142,77 +145,126 @@ padding-bottom: 50px;
 width: 65vw;
 height: 61vh;
 justify-content: space-between;
-@media (max-width: 690px) {
-      height: 100vh;
-      width: 70vw;
+
+@media (max-width: 890px) {
+      height: 64vh;
+      width: 75vw;
+      justify-content: space-evenly
     }
-    @media (max-width: 630px) {
-      height: 110vh;
+    @media (max-width: 690px) {
+      height: 85vh;
+      
       
     }
-    @media (max-width: 520px) {
-      height: 110vh;
-      width: 85vw;
-    }
-    @media (max-width: 430px) {
-      height: 105vh;
+    @media (max-width: 570px) {
+      height: 90vh;
+      width:80vw;
+      
       
     }
-    @media (max-width: 395px) {
-      height: 75vh;
-      width: 90vw;
+    @media (max-width: 450px) {
+     
+      height: 95vh;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 390px) {
+     width: 90vw;
+     justify-content: space-evenly
+     
+   }
+   @media (max-width: 320px) {
+     width: 95%;
+     
+   }
+   @media (max-width: 200px) {
+     
+     height: 100%;
+     
+     
       
     }
-    @media (max-width: 330px) {
-      height: 125vh;
-      
-    }
-    @media (max-width: 260px) {
-      height: 140vh;
-      
-    }
-    @media (max-width: 230px) {
-      height: 160vh;
-      
-    }
-    @media (max-width: 200px) {
-      height: 170vh;
-      
-    }
+  
+  
+  
+   
    
 
 h2{
     font-family:"Platypi", serif ;
     font-size: 40px;
-    @media (max-width: 260px) {
-      font-size: 35px;
-      
-    }
-    @media (max-width: 230px) {
-      font-size:30px;
-      
-    }
-}
-
-
-}
-p{
-    font-family: "poppins";
-    font-size: 15px;
-    @media (max-width: 430px) {
-      font-size: 14px;
+    @media (max-width: 690px) {
+     font-size: 35px;
       
     }
     @media (max-width: 390px) {
-      font-size: 15px;
-      
-    }
+     font-size:30px;
+     
+   }
+    
+   
 }
 
 
 
+p{
+    font-family: "poppins";
+    font-size: 15px;
+    border: solid 1px orange;
+    @media (max-width: 890px) {
+      font-size: 20px;
+    }
+    @media (max-width: 690px) {
+     font-size: 15px;
+      
+    }
+    @media (max-width: 570px) {
+      font-size:16px;
+      
+      
+      
+    }
+    @media (max-width: 390px) {
+     font-size:15px;
+     
+   }
+   @media (max-width: 320px) {
+     padding-top: 17px;
+     
+   }
+   @media (max-width: 300px) {
+    font-size: 12px;
+     
+   }
+   @media (max-width: 260px) {
+     
+     font-size:11px;
+     
+   }
+   @media (max-width: 200px) {
+     
+     padding-top:10px;
+     font-size: 12px;
+     
+      
+    }
+  
+  
+}
 
 `
+
+
+
+
+
+
+
+
+
+
+
+
+
 // -----------fim do sobre mim---------------
 
 // --------------------começo meus trabalhos-------------
