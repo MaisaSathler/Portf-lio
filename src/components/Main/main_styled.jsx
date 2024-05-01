@@ -116,6 +116,12 @@ background-color: #050933;
 ${center}
 padding-bottom: 50px;
 padding-top: 50px;
+@media (max-width: 540px) {
+     
+     height: 140vh;
+     
+      
+    }
 @media (max-width: 320px) {
      
      
@@ -254,18 +260,19 @@ p{
 `
 
 
-
-
-
-
-
-
-
-
-
-
-
 // -----------fim do sobre mim---------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 // --------------------começo meus trabalhos-------------
 
@@ -276,9 +283,38 @@ text-align: center;
 font-size: 27px;
 font-family:"Platypi", serif ;
 color: white;
-height: 130vh;
+height: 100vh;
 /* border: green solid 1px; */
 padding-top:35px;
+
+@media (max-width: 540px) {
+     
+     height: 210vh;
+     
+      
+    }
+    @media (max-width: 400px) {
+     
+     height: 220vh;
+     ${center}
+     flex-direction: column;
+      
+    }
+    h2{
+  font-size: 40px;
+  /* border: solid 1px yellow; */
+  @media (max-width: 360px) {
+     font-size:30px;
+     
+     
+      
+    }
+}
+  
+    
+    
+   
+
 
 `
 export const DivTB = styled.div`
@@ -286,6 +322,12 @@ export const DivTB = styled.div`
 height: 80vh;
 ${center}
 justify-content: space-evenly;
+@media (max-width: 540px) {
+     
+     flex-direction: column;
+     height: 180vh;
+      
+    }
 
 
 `
@@ -293,7 +335,7 @@ justify-content: space-evenly;
 export const Card = styled.div`
 border-radius: 20%;
 background-color: #050933;
-/* border: solid 1px green; */
+/* border: solid 1px orange; */
 width: 20vw;
 height: 50vh;
 display: flex;
@@ -302,14 +344,96 @@ justify-content: space-evenly;
 align-items: center;
 font-family: "poppins";
 box-shadow: 8px 5px 5px #4c1b6b;
+@media (max-width: 540px) {
+     
+    width: 50vw;
+      
+    }
+    @media (max-width: 420px) {
+     
+     height: 38vh;
+     width: 58vw;
+     
+        
+      }
+    @media (max-width: 390px) {
+     
+    width: 65vw;
+    height: 40vh;
+       
+     }
+    @media (max-width: 340px) {
+     width: 70vw;
+     
+     
+      
+    }
+    @media (max-width: 200px) {
+     
+     width: 80vw;
+     
+     
+      
+    }
 img{
     width: 17vw;
-    border-radius: 20%;
+    border-radius: 30%;
+    @media (max-width: 540px) {
+     
+     width:40vw;
+       
+     }
+     @media (max-width: 420px) {
+     
+     
+     width: 50vw;
+     
+        
+      }
+     
+     @media (max-width: 360px) {
+     width: 55vw;
+     
+     
+      
+    }
+    @media (max-width: 200px) {
+     
+     width: 65vw;
+     
+     
+      
+    }
     
 }
 
 .git{
     width: 2.5vw;
+    @media (max-width: 540px) {
+     
+     width: 6vw;
+       
+     }
+     @media (max-width: 390px) {
+     
+     width: 7.5vw;
+     
+        
+      }
+     @media (max-width: 340px) {
+     width: 8vw;
+     
+     
+      
+    }
+    @media (max-width: 200px) {
+     
+     width: 12vw;
+     
+     
+      
+    }
+    
 }
 p{
     font-size: 17px;
@@ -317,6 +441,7 @@ p{
     border-bottom: solid 1px gray;
 }
 `
+// ----------------habilidades--------------
 export const Figure = styled.figure`
 overflow: hidden;
 transition: transform 0.5s ease;
@@ -327,22 +452,106 @@ cursor: pointer;
 
 `
 
+export const Habilidades = styled.section`
+background-color:#04052B;
+height: 38vh;
+`
+
+
+
+
 
 
 export const Icons = styled.div`
 
 ${center}
 flex-direction: column;
-/* border: solid 1px green; */
-height: 20vh;
+/* border: solid 1px magenta; */
+
+color: white;
+font-size:27px ;
+
+h2{
+  font-size: 40px;
+  @media (max-width: 360px) {
+     font-size:32px;
+     
+     
+      
+    }
+}
 div{
-    /* border: solid 1px green; */
+  img{
+    width: 6vw;
+    @media (max-width: 540px) {
+     
+     width: 10vw;
+     
+      
+    }
+    @media (max-width: 340px) {
+     width: 15vw;
+     
+     
+      
+    }
+    @media (max-width: 390px) {
+     
+     width: 17vw;
+     
+        
+      }
+  }
+      /* border: solid 1px green; */
     ${center}
-    
-    width: 45vw;
+    gap: 8px;
+    width: 50vw;
     border-top: solid 1px white;
     height: 20vh;
     padding-top: 40px;
+    
+    @media (max-width: 540px) {
+     
+     width: 65vw;
+     
+      
+    }
+    @media (max-width: 390px) {
+     
+     width: 85vw;
+     
+        
+      }
+    @media (max-width: 340px) {
+     width: 90vw;
+     
+     
+      
+    }
+
+
+    .html{
+      width: 4.4vw;
+      @media (max-width: 540px) {
+     
+     width: 7vw;
+     
+      
+    }
+    @media (max-width: 390px) {
+     
+     width: 12vw;
+     
+        
+      }
+    @media (max-width: 340px) {
+     width: 10vw;
+     
+     
+      
+    }
+    
+    }
 }
 
 

@@ -7,7 +7,7 @@ import gmail from "../../assets/gmail.png"
 export default function Footer() {
   return (
     <S.Footer>
-      <S.BoxFoot id="contato">
+      <S.BoxFoot >
       <p>Caso queira entrar em contato</p>
         <S.DivFoot>
       
@@ -25,7 +25,7 @@ export default function Footer() {
 
      </S.DivFoot>
 
-    <S.DivFoot2>
+    <S.DivFoot2 >
 
      <a href="#inicio">Inicio</a>
      <a href="#sobremim">Sobre mim</a>
@@ -35,7 +35,7 @@ export default function Footer() {
 
      </S.BoxFoot>
     {/* <S.SecPe> */}
-    <S.Pe>
+    <S.Pe id="contato">
       <p>@2024 Todos os direitos reservados.</p>
     </S.Pe>
     {/* </S.SecPe> */}

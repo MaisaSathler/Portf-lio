@@ -47,13 +47,14 @@ export default function Main() {
 
 
 
-    { <S.BoxTrabalhos id="trabalhos">
+     <S.BoxTrabalhos id="trabalhos">
 
 
+    
     <h2><S.Span>Meus</S.Span> Trabalhos</h2>
 
-
        <S.DivTB>
+       
 
        <Card linksite={"https://prime-video-omega.vercel.app/"} siteimg={siteprime} texto={"Meu primeiro site"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/Prime-video"} gitsymbol={github}/>
        <Card linksite={"https://self-care-tau.vercel.app/"}  siteimg={siteselfcare} texto={"Primeiro site responsivo"} descricao={"HTML, CSS"} repositorio={"https://github.com/MaisaSathler/SelfCare"} gitsymbol={github}/>
@@ -61,11 +62,41 @@ export default function Main() {
        
        </S.DivTB>
 
-       <S.Icons>
+       {/* <S.Icons>
        <h2><S.Span>Habili</S.Span>dades</h2>
         <div>
          <S.Figure>
-       <img src={html} alt="" />
+       <img className="html" src={html} alt="" />
+       </S.Figure>
+       
+       <S.Figure>
+        <img src={css} alt="" />
+        </S.Figure>
+      
+        <S.Figure>
+        <img src={java} alt="" />
+        </S.Figure>
+
+        <S.Figure>
+        <img src={reacticon} alt="" />
+        </S.Figure>
+
+        <S.Figure>
+        <img src={styledicon} alt="" />
+        </S.Figure>
+       
+        
+        
+        </div>
+       </S.Icons> */}
+
+    </S.BoxTrabalhos> 
+    <S.Habilidades>
+    <S.Icons>
+       <h2><S.Span>Habili</S.Span>dades</h2>
+        <div>
+         <S.Figure>
+       <img className="html" src={html} alt="" />
        </S.Figure>
        
        <S.Figure>
@@ -88,8 +119,7 @@ export default function Main() {
         
         </div>
        </S.Icons>
-
-    </S.BoxTrabalhos> }
+       </S.Habilidades>
     
 
 
