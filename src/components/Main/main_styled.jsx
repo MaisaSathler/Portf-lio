@@ -112,7 +112,7 @@ h2{
 export const BoxSM = styled.section`
 height: 100vh;
 background-color: #050933;
-border: solid 1px green;
+/* border: solid 1px green; */
 ${center}
 padding-bottom: 50px;
 padding-top: 50px;
@@ -140,7 +140,7 @@ export const DivSM = styled.div`
 color: white;
 ${center}
 flex-direction: column;
-border: solid 1px red;
+/* border: solid 1px red; */
 padding-bottom: 50px;
 width: 65vw;
 height: 61vh;
@@ -209,7 +209,7 @@ h2{
 p{
     font-family: "poppins";
     font-size: 15px;
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     @media (max-width: 890px) {
       font-size: 20px;
     }
