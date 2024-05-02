@@ -416,12 +416,12 @@ img{
      }
      @media (max-width: 390px) {
      
-     width: 7.5vw;
+     width: 9vw;
      
         
       }
      @media (max-width: 340px) {
-     width: 8vw;
+     width:10vw;
      
      
       
