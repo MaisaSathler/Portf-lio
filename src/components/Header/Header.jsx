@@ -2,7 +2,7 @@ import * as S from "./header_styled"
 import avatar from "../../assets/avatar.jpg"
 export default function Header() {
   return (
-    <S.Header>
+    <S.Header id="inicio">
       <S.Nav>
       <img src={avatar} alt="" />
         <a href="#inicio">Inicio</a>
