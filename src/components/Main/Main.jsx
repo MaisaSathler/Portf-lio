@@ -62,35 +62,10 @@ export default function Main() {
        
        </S.DivTB>
 
-       {/* <S.Icons>
-       <h2><S.Span>Habili</S.Span>dades</h2>
-        <div>
-         <S.Figure>
-       <img className="html" src={html} alt="" />
-       </S.Figure>
-       
-       <S.Figure>
-        <img src={css} alt="" />
-        </S.Figure>
-      
-        <S.Figure>
-        <img src={java} alt="" />
-        </S.Figure>
-
-        <S.Figure>
-        <img src={reacticon} alt="" />
-        </S.Figure>
-
-        <S.Figure>
-        <img src={styledicon} alt="" />
-        </S.Figure>
-       
-        
-        
-        </div>
-       </S.Icons> */}
 
     </S.BoxTrabalhos> 
+
+    
     <S.Habilidades>
     <S.Icons>
        <h2><S.Span>Habili</S.Span>dades</h2>

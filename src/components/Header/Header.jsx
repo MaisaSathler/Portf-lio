@@ -3,7 +3,7 @@ import avatar from "../../assets/avatar.jpg"
 export default function Header() {
   return (
     <S.Header>
-      <S.Nav  id="inicio">
+      <S.Nav>
       <img src={avatar} alt="" />
         <a href="#inicio">Inicio</a>
         <a href="#sobremim">Sobre mim</a>

@@ -352,7 +352,7 @@ box-shadow: 8px 5px 5px #4c1b6b;
     @media (max-width: 420px) {
      
      height: 38vh;
-     width: 58vw;
+     width: 65vw;
      
         
       }
@@ -386,13 +386,13 @@ img{
      @media (max-width: 420px) {
      
      
-     width: 50vw;
+     width: 55vw;
      
         
       }
      
      @media (max-width: 360px) {
-     width: 57vw;
+     width: 55vw;
      
      
       
@@ -411,7 +411,7 @@ img{
     width: 2.5vw;
     @media (max-width: 540px) {
      
-     width: 6vw;
+     width: 10vw;
        
      }
      @media (max-width: 390px) {
@@ -485,7 +485,7 @@ div{
     width: 6vw;
     @media (max-width: 540px) {
      
-     width: 10vw;
+     width: 14vw;
      
       
     }
@@ -512,7 +512,7 @@ div{
     
     @media (max-width: 540px) {
      
-     width: 65vw;
+     width: 75vw;
      
       
     }
@@ -534,7 +534,7 @@ div{
       width: 4.4vw;
       @media (max-width: 540px) {
      
-     width: 7vw;
+     width: 10vw;
      
       
     }
