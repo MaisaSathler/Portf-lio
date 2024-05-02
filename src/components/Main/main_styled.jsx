@@ -358,7 +358,7 @@ box-shadow: 8px 5px 5px #4c1b6b;
       }
     @media (max-width: 390px) {
      
-    width: 65vw;
+    width: 70vw;
     height: 40vh;
        
      }
@@ -392,7 +392,7 @@ img{
       }
      
      @media (max-width: 360px) {
-     width: 55vw;
+     width: 57vw;
      
      
       
@@ -416,12 +416,12 @@ img{
      }
      @media (max-width: 390px) {
      
-     width: 9vw;
+     width: 11vw;
      
         
       }
      @media (max-width: 340px) {
-     width:10vw;
+     width:12vw;
      
      
       
